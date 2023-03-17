@@ -1,0 +1,24 @@
+body {
+     direction: rtl;
+     font-family: iransansx;
+}
+
+button {
+     font-family: inherit;
+     cursor: pointer;
+}
+
+a {
+     text-decoration: none;
+     color: inherit;
+}
+
+* {
+     margin: 0;
+     padding: 0;
+}
+
+
+@import '../components/structural/Fonts';
+@import 'new';
+@import '../components/structural/general';

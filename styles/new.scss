@@ -1,0 +1,44 @@
+.payment {
+    div {
+        display: flex;
+        justify-content: space-between;
+        font-size: var(--size09);
+
+        &:nth-child(2) {
+            margin: 1.1em 0;
+        }
+
+
+
+        &:nth-child(3) {
+            font-weight: 600;
+            border-top: 1px dashed var(--lightGray);
+            text-align: center;
+            padding-top: 1em;
+            margin-bottom: 1.5em;
+        }
+    }
+    .total-price-sec{
+        align-items: center;
+     
+    }
+#mainPrice{
+    font-size: 1.1em;
+}
+    // --start/payment button 
+    #btn-payment {
+        color: #fff;
+        background-color: var(--blue);
+        border: none;
+        font-size: 1em;
+        text-align: center;
+        max-width: 100%;
+        padding:0.8em 1em;
+        transition: 0.3s;
+        border-radius: 8px;
+
+        &:hover {
+            background-color: #1b66a8;
+        }
+    }
+}
